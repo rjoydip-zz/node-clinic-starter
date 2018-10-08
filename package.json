@@ -1,0 +1,27 @@
+{
+  "name": "doctor-clinic-starter",
+  "version": "1.0.0",
+  "description": "Starter clinic doctor using fastify",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "doctor:clinic": "npm run clean && npx clinic doctor --on-port 'autocannon -m GET http://localhost:3000' -- node index.js",
+    "benchmark": "npx autocannon -c 2 localhost:3000",
+    "clean": "rm -rf *.clinic-doctor && rm -rf *.clinic-doctor.html"
+  },
+  "keywords": [
+    "express",
+    "compress",
+    "fastify-compress"
+  ],
+  "author": "rjoydip <joydipand@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^1.12.1"
+  },
+  "devDependencies": {
+    "autocannon": "^3.0.1",
+    "clinic": "^1.3.0",
+    "npx": "^10.2.0"
+  }
+}
