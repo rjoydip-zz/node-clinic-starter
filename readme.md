@@ -1,18 +1,22 @@
 
-# doctor-clinic-starter
+# node-clinic-starter
 
-Starter clinic doctor using fastify
+[Node clinic](https://clinicjs.org/) starter using fastify. 
 
 ## Installation
 
 ```
-$ git clone https://github.com/rjoydip/doctor-clinic-starter.git
-$ cd doctor-clinic-starter
+$ git clone https://github.com/rjoydip/node-clinic-starter.git
+$ cd node-clinic-starter
 $ npm install
 $ npm start
 ```
 
 `fastify` server will start on [localhost:3000](http://localhost:3000)
+
+## What is node clinic?
+
+Node Clinic - An Open Source Node.js performance profiling suite by NearForm.
 
 ## Scripts
 
